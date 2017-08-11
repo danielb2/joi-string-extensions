@@ -1,6 +1,6 @@
 {
   "name": "joi-string-extensions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a collection of Joi extensions for strings",
   "main": "lib/index.js",
   "scripts": {
