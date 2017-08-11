@@ -23,9 +23,23 @@ describe('strings', () => {
         done();
     });
 
+    it('should convert caps to camelCase', (done) => {
+
+        const res = Joi.attempt('HELLO WORLD', Joi.string().camelCase());
+        expect(res).to.equal('helloWorld');
+        done();
+    });
+
     it('should convert to CamelCase', (done) => {
 
         const res = Joi.attempt('hello world', Joi.string().CamelCase());
+        expect(res).to.equal('HelloWorld');
+        done();
+    });
+
+    it('should convert to CamelCase', (done) => {
+
+        const res = Joi.attempt('HELLO WORLD', Joi.string().CamelCase());
         expect(res).to.equal('HelloWorld');
         done();
     });
