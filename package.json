@@ -1,0 +1,19 @@
+{
+  "name": "joi-string-extensions",
+  "version": "1.0.0",
+  "description": "a collection of Joi extensions for strings",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "lab -a code -v -L -t 100 -r console -o console.log -r console -o stdout -r html -o lab.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "joi": "^10.6.0",
+    "lingo": "0.0.5"
+  },
+  "devDependencies": {
+    "code": "^4.1.0",
+    "lab": "^14.1.1"
+  }
+}
